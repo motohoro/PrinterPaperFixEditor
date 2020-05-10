@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyForm2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="201a3" class="javax.swing.JButton" binding="printbutton">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="印刷(P)"/>
+        </properties>
+      </component>
+      <grid id="dc730" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2aa30" class="javax.swing.JTextField" binding="printernameField">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e2fe5" class="javax.swing.JTextField" binding="papernameField">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+              <editable value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a92e4" class="javax.swing.JButton" binding="printerpaperbutton">
+            <constraints/>
+            <properties>
+              <text value="プリンタ＆用紙(S)"/>
+            </properties>
+          </component>
+          <component id="af640" class="javax.swing.JButton" binding="savebutton">
+            <constraints/>
+            <properties>
+              <text value="保存"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="9fb1f" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <columns value="0"/>
+          <rows value="5"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
