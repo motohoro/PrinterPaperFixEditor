@@ -72,6 +72,12 @@ public class MyForm2 extends JFrame{
                 //TODO save
             }
         });
+        printbutton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Print2DPrinterJob sp = new Print2DPrinterJob();
+            }
+        });
     }
 
 }
